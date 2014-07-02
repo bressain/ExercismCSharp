@@ -1,0 +1,7 @@
+*.ncrunchsolution*
+*.suo
+*.ncrunchproject
+packages/
+bin/
+obj/
+_NCrunch_ExercismCSharp/

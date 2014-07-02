@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{98C9A7B6-DA4D-4F27-9B79-0BDA347F65C5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ExercismCSharp</RootNamespace>
+    <AssemblyName>ExercismCSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="nunit.framework">
+      <HintPath>..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\xcsharp\accumulate\AccumulateTest.cs">
+      <Link>accumulate\AccumulateTest.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\accumulate\Example.cs">
+      <Link>accumulate\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\allergies\AllergiesTest.cs">
+      <Link>allergies\AllergiesTest.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\allergies\Example.cs">
+      <Link>allergies\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\anagram\AnagramTest.cs">
+      <Link>anagram\AnagramTest.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\anagram\Example.cs">
+      <Link>anagram\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\atbash-cipher\AtbashTest.cs">
+      <Link>atbash-cipher\AtbashTest.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\atbash-cipher\Example.cs">
+      <Link>atbash-cipher\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\binary\BinaryTest.cs">
+      <Link>binary\BinaryTest.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\binary\Example.cs">
+      <Link>binary\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\bob\BobTest.cs">
+      <Link>bob\BobTest.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\bob\Example.cs">
+      <Link>bob\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\crypto-square\CryptoSquareTest.cs">
+      <Link>crypto-square\CryptoSquareTest.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\crypto-square\Example.cs">
+      <Link>crypto-square\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\etl\ETLTest.cs">
+      <Link>etl\ETLTest.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\etl\Example.cs">
+      <Link>etl\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\gigasecond\Example.cs">
+      <Link>gigasecond\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\gigasecond\GigasecondTest.cs">
+      <Link>gigasecond\GigasecondTest.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\grade-school\Example.cs">
+      <Link>grade-school\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\grade-school\GradeSchoolTest.cs">
+      <Link>grade-school\GradeSchoolTest.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\hamming\Example.cs">
+      <Link>hamming\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\hamming\HammingTest.cs">
+      <Link>hamming\HammingTest.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\leap\Example.cs">
+      <Link>leap\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\leap\LeapTest.cs">
+      <Link>leap\LeapTest.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\meetup\Example.cs">
+      <Link>meetup\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\meetup\MeetupTest.cs">
+      <Link>meetup\MeetupTest.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\nucleotide-count\Example.cs">
+      <Link>nucleotide-count\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\nucleotide-count\NucleotideCountTest.cs">
+      <Link>nucleotide-count\NucleotideCountTest.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\phone-number\Example.cs">
+      <Link>phone-number\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\phone-number\PhoneNumberTest.cs">
+      <Link>phone-number\PhoneNumberTest.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\prime-factors\Example.cs">
+      <Link>prime-factors\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\prime-factors\PrimeFactorsTest.cs">
+      <Link>prime-factors\PrimeFactorsTest.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\raindrops\Example.cs">
+      <Link>raindrops\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\raindrops\RaindropsTest.cs">
+      <Link>raindrops\RaindropsTest.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\robot-name\Example.cs">
+      <Link>robot-name\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\robot-name\RobotNameTest.cs">
+      <Link>robot-name\RobotNameTest.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\roman-numerals\Example.cs">
+      <Link>roman-numerals\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\roman-numerals\RomanNumeralsTest.cs">
+      <Link>roman-numerals\RomanNumeralsTest.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\scrabble-score\Example.cs">
+      <Link>scrabble-score\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\scrabble-score\ScrabbleScoreTest.cs">
+      <Link>scrabble-score\ScrabbleScoreTest.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\space-age\Example.cs">
+      <Link>space-age\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\space-age\SpaceAgeTest.cs">
+      <Link>space-age\SpaceAgeTest.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\strain\Example.cs">
+      <Link>strain\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\strain\StrainTest.cs">
+      <Link>strain\StrainTest.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\sum-of-multiples\Example.cs">
+      <Link>sum-of-multiples\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\sum-of-multiples\SumOfMultiplesTest.cs">
+      <Link>sum-of-multiples\SumOfMultiplesTest.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\triangle\Example.cs">
+      <Link>triangle\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\triangle\TriangleTest.cs">
+      <Link>triangle\TriangleTest.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\twelve-days\Example.cs">
+      <Link>twelve-days\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\twelve-days\TwelveDaysTest.cs">
+      <Link>twelve-days\TwelveDaysTest.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\word-count\Example.cs">
+      <Link>word-count\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\word-count\WordCountTest.cs">
+      <Link>word-count\WordCountTest.cs</Link>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
