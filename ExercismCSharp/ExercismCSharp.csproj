@@ -146,6 +146,12 @@
     <Compile Include="..\..\xcsharp\raindrops\RaindropsTest.cs">
       <Link>raindrops\RaindropsTest.cs</Link>
     </Compile>
+    <Compile Include="..\..\xcsharp\rna-transcription\ComplementTest.cs">
+      <Link>rna-transcription\ComplementTest.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\rna-transcription\Example.cs">
+      <Link>rna-transcription\Example.cs</Link>
+    </Compile>
     <Compile Include="..\..\xcsharp\robot-name\Example.cs">
       <Link>robot-name\Example.cs</Link>
     </Compile>
@@ -187,6 +193,12 @@
     </Compile>
     <Compile Include="..\..\xcsharp\triangle\TriangleTest.cs">
       <Link>triangle\TriangleTest.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\trinary\Example.cs">
+      <Link>trinary\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\trinary\TrinaryTest.cs">
+      <Link>trinary\TrinaryTest.cs</Link>
     </Compile>
     <Compile Include="..\..\xcsharp\twelve-days\Example.cs">
       <Link>twelve-days\Example.cs</Link>
