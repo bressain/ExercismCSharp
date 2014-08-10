@@ -170,6 +170,12 @@
     <Compile Include="..\..\xcsharp\scrabble-score\ScrabbleScoreTest.cs">
       <Link>scrabble-score\ScrabbleScoreTest.cs</Link>
     </Compile>
+    <Compile Include="..\..\xcsharp\sieve\Example.cs">
+      <Link>sieve\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\sieve\SieveTest.cs">
+      <Link>sieve\SieveTest.cs</Link>
+    </Compile>
     <Compile Include="..\..\xcsharp\space-age\Example.cs">
       <Link>space-age\Example.cs</Link>
     </Compile>
