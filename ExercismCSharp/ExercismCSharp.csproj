@@ -128,6 +128,12 @@
     <Compile Include="..\..\xcsharp\nucleotide-count\NucleotideCountTest.cs">
       <Link>nucleotide-count\NucleotideCountTest.cs</Link>
     </Compile>
+    <Compile Include="..\..\xcsharp\octal\Example.cs">
+      <Link>octal\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\octal\OctalTest.cs">
+      <Link>octal\OctalTest.cs</Link>
+    </Compile>
     <Compile Include="..\..\xcsharp\phone-number\Example.cs">
       <Link>phone-number\Example.cs</Link>
     </Compile>
@@ -175,6 +181,12 @@
     </Compile>
     <Compile Include="..\..\xcsharp\sieve\SieveTest.cs">
       <Link>sieve\SieveTest.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\simple-cipher\Example.cs">
+      <Link>simple-cipher\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\simple-cipher\SimpleCipherTest.cs">
+      <Link>simple-cipher\SimpleCipherTest.cs</Link>
     </Compile>
     <Compile Include="..\..\xcsharp\space-age\Example.cs">
       <Link>space-age\Example.cs</Link>
