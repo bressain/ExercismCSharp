@@ -116,6 +116,12 @@
     <Compile Include="..\..\xcsharp\leap\LeapTest.cs">
       <Link>leap\LeapTest.cs</Link>
     </Compile>
+    <Compile Include="..\..\xcsharp\luhn\Example.cs">
+      <Link>luhn\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\luhn\LuhnTest.cs">
+      <Link>luhn\LuhnTest.cs</Link>
+    </Compile>
     <Compile Include="..\..\xcsharp\meetup\Example.cs">
       <Link>meetup\Example.cs</Link>
     </Compile>
