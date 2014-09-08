@@ -146,6 +146,12 @@
     <Compile Include="..\..\xcsharp\phone-number\PhoneNumberTest.cs">
       <Link>phone-number\PhoneNumberTest.cs</Link>
     </Compile>
+    <Compile Include="..\..\xcsharp\pig-latin\Example.cs">
+      <Link>pig-latin\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\pig-latin\PigLatinTest.cs">
+      <Link>pig-latin\PigLatinTest.cs</Link>
+    </Compile>
     <Compile Include="..\..\xcsharp\prime-factors\Example.cs">
       <Link>prime-factors\Example.cs</Link>
     </Compile>
