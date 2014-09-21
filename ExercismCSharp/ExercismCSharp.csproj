@@ -158,6 +158,12 @@
     <Compile Include="..\..\xcsharp\prime-factors\PrimeFactorsTest.cs">
       <Link>prime-factors\PrimeFactorsTest.cs</Link>
     </Compile>
+    <Compile Include="..\..\xcsharp\pythagorean-triplet\Example.cs">
+      <Link>pythagorean-triplet\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\pythagorean-triplet\PythagoreanTripletTest.cs">
+      <Link>pythagorean-triplet\PythagoreanTripletTest.cs</Link>
+    </Compile>
     <Compile Include="..\..\xcsharp\raindrops\Example.cs">
       <Link>raindrops\Example.cs</Link>
     </Compile>
