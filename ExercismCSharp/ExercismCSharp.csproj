@@ -194,6 +194,12 @@
     <Compile Include="..\..\xcsharp\scrabble-score\ScrabbleScoreTest.cs">
       <Link>scrabble-score\ScrabbleScoreTest.cs</Link>
     </Compile>
+    <Compile Include="..\..\xcsharp\series\Example.cs">
+      <Link>series\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\series\SeriesTest.cs">
+      <Link>series\SeriesTest.cs</Link>
+    </Compile>
     <Compile Include="..\..\xcsharp\sieve\Example.cs">
       <Link>sieve\Example.cs</Link>
     </Compile>
