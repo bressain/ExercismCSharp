@@ -80,11 +80,23 @@
     <Compile Include="..\..\xcsharp\bob\Example.cs">
       <Link>bob\Example.cs</Link>
     </Compile>
+    <Compile Include="..\..\xcsharp\clock\ClockTest.cs">
+      <Link>clock\ClockTest.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\clock\Example.cs">
+      <Link>clock\Example.cs</Link>
+    </Compile>
     <Compile Include="..\..\xcsharp\crypto-square\CryptoSquareTest.cs">
       <Link>crypto-square\CryptoSquareTest.cs</Link>
     </Compile>
     <Compile Include="..\..\xcsharp\crypto-square\Example.cs">
       <Link>crypto-square\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\difference-of-squares\DifferenceOfSquaresTests.cs">
+      <Link>difference-of-squares\DifferenceOfSquaresTests.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\difference-of-squares\Example.cs">
+      <Link>difference-of-squares\Example.cs</Link>
     </Compile>
     <Compile Include="..\..\xcsharp\etl\ETLTest.cs">
       <Link>etl\ETLTest.cs</Link>
@@ -115,6 +127,12 @@
     </Compile>
     <Compile Include="..\..\xcsharp\leap\LeapTest.cs">
       <Link>leap\LeapTest.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\linked-list\Example.cs">
+      <Link>linked-list\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\linked-list\LinkedListTest.cs">
+      <Link>linked-list\LinkedListTest.cs</Link>
     </Compile>
     <Compile Include="..\..\xcsharp\luhn\Example.cs">
       <Link>luhn\Example.cs</Link>
@@ -194,6 +212,12 @@
     <Compile Include="..\..\xcsharp\scrabble-score\ScrabbleScoreTest.cs">
       <Link>scrabble-score\ScrabbleScoreTest.cs</Link>
     </Compile>
+    <Compile Include="..\..\xcsharp\secret-handshake\Example.cs">
+      <Link>secret-handshake\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\secret-handshake\SecretHandshakeTests.cs">
+      <Link>secret-handshake\SecretHandshakeTests.cs</Link>
+    </Compile>
     <Compile Include="..\..\xcsharp\series\Example.cs">
       <Link>series\Example.cs</Link>
     </Compile>
@@ -253,6 +277,12 @@
     </Compile>
     <Compile Include="..\..\xcsharp\word-count\WordCountTest.cs">
       <Link>word-count\WordCountTest.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\wordy\Example.cs">
+      <Link>wordy\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\wordy\WordyTest.cs">
+      <Link>wordy\WordyTest.cs</Link>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
