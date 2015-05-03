@@ -122,6 +122,12 @@
     <Compile Include="..\..\xcsharp\hamming\HammingTest.cs">
       <Link>hamming\HammingTest.cs</Link>
     </Compile>
+    <Compile Include="..\..\xcsharp\hexadecimal\Example.cs">
+      <Link>hexadecimal\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\hexadecimal\HexadecimalTest.cs">
+      <Link>hexadecimal\HexadecimalTest.cs</Link>
+    </Compile>
     <Compile Include="..\..\xcsharp\leap\Example.cs">
       <Link>leap\Example.cs</Link>
     </Compile>
