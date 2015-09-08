@@ -1,7 +1,9 @@
 *.ncrunchsolution*
 *.suo
 *.ncrunchproject
+*.DotSettings.user
 packages/
 bin/
 obj/
 _NCrunch_ExercismCSharp/
+
