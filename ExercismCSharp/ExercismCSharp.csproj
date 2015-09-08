@@ -128,6 +128,12 @@
     <Compile Include="..\..\xcsharp\hexadecimal\HexadecimalTest.cs">
       <Link>hexadecimal\HexadecimalTest.cs</Link>
     </Compile>
+    <Compile Include="..\..\xcsharp\largest-series-product\Example.cs">
+      <Link>largest-series-product\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\largest-series-product\LargestSeriesProductTest.cs">
+      <Link>largest-series-product\LargestSeriesProductTest.cs</Link>
+    </Compile>
     <Compile Include="..\..\xcsharp\leap\Example.cs">
       <Link>leap\Example.cs</Link>
     </Compile>
