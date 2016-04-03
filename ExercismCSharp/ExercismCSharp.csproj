@@ -44,263 +44,343 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\xcsharp\accumulate\AccumulateTest.cs">
+    <Compile Include="..\..\xcsharp\exercises\accumulate\AccumulateTest.cs">
       <Link>accumulate\AccumulateTest.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\accumulate\Example.cs">
+    <Compile Include="..\..\xcsharp\exercises\accumulate\Example.cs">
       <Link>accumulate\Example.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\allergies\AllergiesTest.cs">
+    <Compile Include="..\..\xcsharp\exercises\allergies\AllergiesTest.cs">
       <Link>allergies\AllergiesTest.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\allergies\Example.cs">
+    <Compile Include="..\..\xcsharp\exercises\allergies\Example.cs">
       <Link>allergies\Example.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\anagram\AnagramTest.cs">
+    <Compile Include="..\..\xcsharp\exercises\anagram\AnagramTest.cs">
       <Link>anagram\AnagramTest.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\anagram\Example.cs">
+    <Compile Include="..\..\xcsharp\exercises\anagram\Example.cs">
       <Link>anagram\Example.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\atbash-cipher\AtbashTest.cs">
+    <Compile Include="..\..\xcsharp\exercises\atbash-cipher\AtbashTest.cs">
       <Link>atbash-cipher\AtbashTest.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\atbash-cipher\Example.cs">
+    <Compile Include="..\..\xcsharp\exercises\atbash-cipher\Example.cs">
       <Link>atbash-cipher\Example.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\binary\BinaryTest.cs">
+    <Compile Include="..\..\xcsharp\exercises\beer-song\BeerTests.cs">
+      <Link>beer-song\BeerTests.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\exercises\beer-song\Example.cs">
+      <Link>beer-song\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\exercises\binary-search-tree\BinarySearchTreeTest.cs">
+      <Link>binary-search-tree\BinarySearchTreeTest.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\exercises\binary-search-tree\Example.cs">
+      <Link>binary-search-tree\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\exercises\binary\BinaryTest.cs">
       <Link>binary\BinaryTest.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\binary\Example.cs">
+    <Compile Include="..\..\xcsharp\exercises\binary\Example.cs">
       <Link>binary\Example.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\bob\BobTest.cs">
+    <Compile Include="..\..\xcsharp\exercises\bob\BobTest.cs">
       <Link>bob\BobTest.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\bob\Example.cs">
+    <Compile Include="..\..\xcsharp\exercises\bob\Example.cs">
       <Link>bob\Example.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\clock\ClockTest.cs">
+    <Compile Include="..\..\xcsharp\exercises\clock\ClockTest.cs">
       <Link>clock\ClockTest.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\clock\Example.cs">
+    <Compile Include="..\..\xcsharp\exercises\clock\Example.cs">
       <Link>clock\Example.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\crypto-square\CryptoSquareTest.cs">
+    <Compile Include="..\..\xcsharp\exercises\crypto-square\CryptoSquareTest.cs">
       <Link>crypto-square\CryptoSquareTest.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\crypto-square\Example.cs">
+    <Compile Include="..\..\xcsharp\exercises\crypto-square\Example.cs">
       <Link>crypto-square\Example.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\difference-of-squares\DifferenceOfSquaresTests.cs">
+    <Compile Include="..\..\xcsharp\exercises\difference-of-squares\DifferenceOfSquaresTests.cs">
       <Link>difference-of-squares\DifferenceOfSquaresTests.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\difference-of-squares\Example.cs">
+    <Compile Include="..\..\xcsharp\exercises\difference-of-squares\Example.cs">
       <Link>difference-of-squares\Example.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\etl\ETLTest.cs">
+    <Compile Include="..\..\xcsharp\exercises\etl\ETLTest.cs">
       <Link>etl\ETLTest.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\etl\Example.cs">
+    <Compile Include="..\..\xcsharp\exercises\etl\Example.cs">
       <Link>etl\Example.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\gigasecond\Example.cs">
+    <Compile Include="..\..\xcsharp\exercises\gigasecond\Example.cs">
       <Link>gigasecond\Example.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\gigasecond\GigasecondTest.cs">
+    <Compile Include="..\..\xcsharp\exercises\gigasecond\GigasecondTest.cs">
       <Link>gigasecond\GigasecondTest.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\grade-school\Example.cs">
+    <Compile Include="..\..\xcsharp\exercises\grade-school\Example.cs">
       <Link>grade-school\Example.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\grade-school\GradeSchoolTest.cs">
+    <Compile Include="..\..\xcsharp\exercises\grade-school\GradeSchoolTest.cs">
       <Link>grade-school\GradeSchoolTest.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\hamming\Example.cs">
+    <Compile Include="..\..\xcsharp\exercises\hamming\Example.cs">
       <Link>hamming\Example.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\hamming\HammingTest.cs">
+    <Compile Include="..\..\xcsharp\exercises\hamming\HammingTest.cs">
       <Link>hamming\HammingTest.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\hexadecimal\Example.cs">
+    <Compile Include="..\..\xcsharp\exercises\hexadecimal\Example.cs">
       <Link>hexadecimal\Example.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\hexadecimal\HexadecimalTest.cs">
+    <Compile Include="..\..\xcsharp\exercises\hexadecimal\HexadecimalTest.cs">
       <Link>hexadecimal\HexadecimalTest.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\largest-series-product\Example.cs">
+    <Compile Include="..\..\xcsharp\exercises\kindergarten-garden\Example.cs">
+      <Link>kindergarten-garden\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\exercises\kindergarten-garden\KinderGartenGardenTest.cs">
+      <Link>kindergarten-garden\KinderGartenGardenTest.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\exercises\largest-series-product\Example.cs">
       <Link>largest-series-product\Example.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\largest-series-product\LargestSeriesProductTest.cs">
+    <Compile Include="..\..\xcsharp\exercises\largest-series-product\LargestSeriesProductTest.cs">
       <Link>largest-series-product\LargestSeriesProductTest.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\leap\Example.cs">
+    <Compile Include="..\..\xcsharp\exercises\leap\Example.cs">
       <Link>leap\Example.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\leap\LeapTest.cs">
+    <Compile Include="..\..\xcsharp\exercises\leap\LeapTest.cs">
       <Link>leap\LeapTest.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\linked-list\Example.cs">
+    <Compile Include="..\..\xcsharp\exercises\linked-list\Example.cs">
       <Link>linked-list\Example.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\linked-list\LinkedListTest.cs">
+    <Compile Include="..\..\xcsharp\exercises\linked-list\LinkedListTest.cs">
       <Link>linked-list\LinkedListTest.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\luhn\Example.cs">
+    <Compile Include="..\..\xcsharp\exercises\luhn\Example.cs">
       <Link>luhn\Example.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\luhn\LuhnTest.cs">
+    <Compile Include="..\..\xcsharp\exercises\luhn\LuhnTest.cs">
       <Link>luhn\LuhnTest.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\meetup\Example.cs">
+    <Compile Include="..\..\xcsharp\exercises\matrix\Example.cs">
+      <Link>matrix\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\exercises\matrix\MatrixTest.cs">
+      <Link>matrix\MatrixTest.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\exercises\meetup\Example.cs">
       <Link>meetup\Example.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\meetup\MeetupTest.cs">
+    <Compile Include="..\..\xcsharp\exercises\meetup\MeetupTest.cs">
       <Link>meetup\MeetupTest.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\nucleotide-count\Example.cs">
+    <Compile Include="..\..\xcsharp\exercises\nth-prime\Example.cs">
+      <Link>nth-prime\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\exercises\nth-prime\NthPrimeTest.cs">
+      <Link>nth-prime\NthPrimeTest.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\exercises\nucleotide-count\Example.cs">
       <Link>nucleotide-count\Example.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\nucleotide-count\NucleotideCountTest.cs">
+    <Compile Include="..\..\xcsharp\exercises\nucleotide-count\NucleotideCountTest.cs">
       <Link>nucleotide-count\NucleotideCountTest.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\octal\Example.cs">
+    <Compile Include="..\..\xcsharp\exercises\ocr-numbers\Example.cs">
+      <Link>ocr-numbers\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\exercises\ocr-numbers\OcrNumbersTest.cs">
+      <Link>ocr-numbers\OcrNumbersTest.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\exercises\octal\Example.cs">
       <Link>octal\Example.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\octal\OctalTest.cs">
+    <Compile Include="..\..\xcsharp\exercises\octal\OctalTest.cs">
       <Link>octal\OctalTest.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\phone-number\Example.cs">
+    <Compile Include="..\..\xcsharp\exercises\palindrome-products\Example.cs">
+      <Link>palindrome-products\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\exercises\palindrome-products\PalindromeTest.cs">
+      <Link>palindrome-products\PalindromeTest.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\exercises\pascals-triangle\Example.cs">
+      <Link>pascals-triangle\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\exercises\pascals-triangle\PascalsTriangleTest.cs">
+      <Link>pascals-triangle\PascalsTriangleTest.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\exercises\phone-number\Example.cs">
       <Link>phone-number\Example.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\phone-number\PhoneNumberTest.cs">
+    <Compile Include="..\..\xcsharp\exercises\phone-number\PhoneNumberTest.cs">
       <Link>phone-number\PhoneNumberTest.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\pig-latin\Example.cs">
+    <Compile Include="..\..\xcsharp\exercises\pig-latin\Example.cs">
       <Link>pig-latin\Example.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\pig-latin\PigLatinTest.cs">
+    <Compile Include="..\..\xcsharp\exercises\pig-latin\PigLatinTest.cs">
       <Link>pig-latin\PigLatinTest.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\prime-factors\Example.cs">
+    <Compile Include="..\..\xcsharp\exercises\prime-factors\Example.cs">
       <Link>prime-factors\Example.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\prime-factors\PrimeFactorsTest.cs">
+    <Compile Include="..\..\xcsharp\exercises\prime-factors\PrimeFactorsTest.cs">
       <Link>prime-factors\PrimeFactorsTest.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\pythagorean-triplet\Example.cs">
+    <Compile Include="..\..\xcsharp\exercises\pythagorean-triplet\Example.cs">
       <Link>pythagorean-triplet\Example.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\pythagorean-triplet\PythagoreanTripletTest.cs">
+    <Compile Include="..\..\xcsharp\exercises\pythagorean-triplet\PythagoreanTripletTest.cs">
       <Link>pythagorean-triplet\PythagoreanTripletTest.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\raindrops\Example.cs">
+    <Compile Include="..\..\xcsharp\exercises\queen-attack\Example.cs">
+      <Link>queen-attack\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\exercises\queen-attack\QueenAttackTest.cs">
+      <Link>queen-attack\QueenAttackTest.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\exercises\raindrops\Example.cs">
       <Link>raindrops\Example.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\raindrops\RaindropsTest.cs">
+    <Compile Include="..\..\xcsharp\exercises\raindrops\RaindropsTest.cs">
       <Link>raindrops\RaindropsTest.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\rna-transcription\ComplementTest.cs">
+    <Compile Include="..\..\xcsharp\exercises\rna-transcription\ComplementTest.cs">
       <Link>rna-transcription\ComplementTest.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\rna-transcription\Example.cs">
+    <Compile Include="..\..\xcsharp\exercises\rna-transcription\Example.cs">
       <Link>rna-transcription\Example.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\robot-name\Example.cs">
+    <Compile Include="..\..\xcsharp\exercises\robot-name\Example.cs">
       <Link>robot-name\Example.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\robot-name\RobotNameTest.cs">
+    <Compile Include="..\..\xcsharp\exercises\robot-name\RobotNameTest.cs">
       <Link>robot-name\RobotNameTest.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\roman-numerals\Example.cs">
+    <Compile Include="..\..\xcsharp\exercises\robot-simulator\Example.cs">
+      <Link>robot-simulator\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\exercises\robot-simulator\RobotSimulatorTest.cs">
+      <Link>robot-simulator\RobotSimulatorTest.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\exercises\roman-numerals\Example.cs">
       <Link>roman-numerals\Example.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\roman-numerals\RomanNumeralsTest.cs">
+    <Compile Include="..\..\xcsharp\exercises\roman-numerals\RomanNumeralsTest.cs">
       <Link>roman-numerals\RomanNumeralsTest.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\scrabble-score\Example.cs">
+    <Compile Include="..\..\xcsharp\exercises\saddle-points\Example.cs">
+      <Link>saddle-points\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\exercises\saddle-points\SaddlePointTests.cs">
+      <Link>saddle-points\SaddlePointTests.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\exercises\scrabble-score\Example.cs">
       <Link>scrabble-score\Example.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\scrabble-score\ScrabbleScoreTest.cs">
+    <Compile Include="..\..\xcsharp\exercises\scrabble-score\ScrabbleScoreTest.cs">
       <Link>scrabble-score\ScrabbleScoreTest.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\secret-handshake\Example.cs">
+    <Compile Include="..\..\xcsharp\exercises\secret-handshake\Example.cs">
       <Link>secret-handshake\Example.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\secret-handshake\SecretHandshakeTests.cs">
+    <Compile Include="..\..\xcsharp\exercises\secret-handshake\SecretHandshakeTests.cs">
       <Link>secret-handshake\SecretHandshakeTests.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\series\Example.cs">
+    <Compile Include="..\..\xcsharp\exercises\series\Example.cs">
       <Link>series\Example.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\series\SeriesTest.cs">
+    <Compile Include="..\..\xcsharp\exercises\series\SeriesTest.cs">
       <Link>series\SeriesTest.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\sieve\Example.cs">
+    <Compile Include="..\..\xcsharp\exercises\sieve\Example.cs">
       <Link>sieve\Example.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\sieve\SieveTest.cs">
+    <Compile Include="..\..\xcsharp\exercises\sieve\SieveTest.cs">
       <Link>sieve\SieveTest.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\simple-cipher\Example.cs">
+    <Compile Include="..\..\xcsharp\exercises\simple-cipher\Example.cs">
       <Link>simple-cipher\Example.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\simple-cipher\SimpleCipherTest.cs">
+    <Compile Include="..\..\xcsharp\exercises\simple-cipher\SimpleCipherTest.cs">
       <Link>simple-cipher\SimpleCipherTest.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\space-age\Example.cs">
+    <Compile Include="..\..\xcsharp\exercises\simple-linked-list\Example.cs">
+      <Link>simple-linked-list\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\exercises\simple-linked-list\SimpleLinkedListTest.cs">
+      <Link>simple-linked-list\SimpleLinkedListTest.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\exercises\space-age\Example.cs">
       <Link>space-age\Example.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\space-age\SpaceAgeTest.cs">
+    <Compile Include="..\..\xcsharp\exercises\space-age\SpaceAgeTest.cs">
       <Link>space-age\SpaceAgeTest.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\strain\Example.cs">
+    <Compile Include="..\..\xcsharp\exercises\strain\Example.cs">
       <Link>strain\Example.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\strain\StrainTest.cs">
+    <Compile Include="..\..\xcsharp\exercises\strain\StrainTest.cs">
       <Link>strain\StrainTest.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\sum-of-multiples\Example.cs">
+    <Compile Include="..\..\xcsharp\exercises\sum-of-multiples\Example.cs">
       <Link>sum-of-multiples\Example.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\sum-of-multiples\SumOfMultiplesTest.cs">
+    <Compile Include="..\..\xcsharp\exercises\sum-of-multiples\SumOfMultiplesTest.cs">
       <Link>sum-of-multiples\SumOfMultiplesTest.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\triangle\Example.cs">
+    <Compile Include="..\..\xcsharp\exercises\triangle\Example.cs">
       <Link>triangle\Example.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\triangle\TriangleTest.cs">
+    <Compile Include="..\..\xcsharp\exercises\triangle\TriangleTest.cs">
       <Link>triangle\TriangleTest.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\trinary\Example.cs">
+    <Compile Include="..\..\xcsharp\exercises\trinary\Example.cs">
       <Link>trinary\Example.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\trinary\TrinaryTest.cs">
+    <Compile Include="..\..\xcsharp\exercises\trinary\TrinaryTest.cs">
       <Link>trinary\TrinaryTest.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\twelve-days\Example.cs">
+    <Compile Include="..\..\xcsharp\exercises\twelve-days\Example.cs">
       <Link>twelve-days\Example.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\twelve-days\TwelveDaysTest.cs">
+    <Compile Include="..\..\xcsharp\exercises\twelve-days\TwelveDaysTest.cs">
       <Link>twelve-days\TwelveDaysTest.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\word-count\Example.cs">
+    <Compile Include="..\..\xcsharp\exercises\word-count\Example.cs">
       <Link>word-count\Example.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\word-count\WordCountTest.cs">
+    <Compile Include="..\..\xcsharp\exercises\word-count\WordCountTest.cs">
       <Link>word-count\WordCountTest.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\wordy\Example.cs">
+    <Compile Include="..\..\xcsharp\exercises\wordy\Example.cs">
       <Link>wordy\Example.cs</Link>
     </Compile>
-    <Compile Include="..\..\xcsharp\wordy\WordyTest.cs">
+    <Compile Include="..\..\xcsharp\exercises\wordy\WordyTest.cs">
       <Link>wordy\WordyTest.cs</Link>
     </Compile>
-    <Compile Include="acronym\AcronymTest.cs" />
-    <Compile Include="acronym\Example.cs" />
+    <Compile Include="..\..\xcsharp\exercises\acronym\Example.cs">
+      <Link>acronym\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\exercises\acronym\AcronymTest.cs">
+      <Link>acronym\AcronymTest.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\exercises\tournament\Example.cs">
+      <Link>tournament\Example.cs</Link>
+    </Compile>
+    <Compile Include="..\..\xcsharp\exercises\tournament\TournamentTest.cs">
+      <Link>tournament\TournamentTest.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="tournament\Example.cs" />
-    <Compile Include="tournament\TournamentTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -314,7 +394,7 @@
     </PropertyGroup>
     <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
   </Target>
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
   </Target>
